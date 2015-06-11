@@ -1,4 +1,5 @@
 # TravelOAC
+<<<<<<< HEAD
 
 This is the code for the TravelOAC project. Ultimately the code will be published here in a useful, sharable format, but for the moment it is just an easy way to make the code available to others!
 
@@ -17,3 +18,5 @@ Additional files:
 All these files are setup for my computer, and probably won't work out of the box. I hope to tidy this up soon!
 
 Please feel free to fork the repo, and make pull requests.
+=======
+>>>>>>> 6bfc676737fa0a374d9aab535f58bd77017d6d53
