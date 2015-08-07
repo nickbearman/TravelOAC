@@ -4,7 +4,7 @@ This is the code and associated files for the TravelOAC project. The paper is cu
 
 Any questions, please email me (n.bearman@liverpool.ac.uk).
 
-The [keywords](clusters-keywords.Rmd) used for each cluster are also avaliable; please add to them as you see fit. 
+The [keywords](clusters-keywords.md) used for each cluster are also avaliable; please add to them as you see fit. 
 
 There are a number of different files with R code. Here is a brief description, and the rough order they should be used in:
 

@@ -1,8 +1,4 @@
----
-title: 'Clusters: Keywords'
-author: "Nick Bearman"
-output: html_document
----
+# Clusters: Keywords
 
 This document contains the keywords used to define each geodemographic classification generated in the [TravelOAC](https://github.com/nickbearman/TravelOAC) project. Please make pull requests to contribute to the definations. 
 
