@@ -1,10 +1,12 @@
 # TravelOAC
 
-This is the code for the TravelOAC project. The paper is currently in preparation and this code will be published alongside the paper. At the moment this is just an easy way to make the code available to others.
+This is the code and associated files for the TravelOAC project. The paper is currently in preparation and this code will be published alongside the paper. At the moment this is just an easy way to make the code available to others.
 
 Any questions, please email me (n.bearman@liverpool.ac.uk).
 
-There are a number of different files. Here is a brief description, and the rough order they should be used in:
+The [keywords](clusters-keywords.Rmd) used for each cluster are also avaliable; please add to them as you see fit. 
+
+There are a number of different files with R code. Here is a brief description, and the rough order they should be used in:
 
 **1-calc-nearest-stop.R**  
 - used to read in and preprocess OA centriod data and NAPTAN data  
