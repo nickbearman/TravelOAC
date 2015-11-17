@@ -1,6 +1,6 @@
 # TravelOAC
 
-This is the code and associated files for the TravelOAC project. The paper is currently in preparation and this code will be published alongside the paper. At the moment this is just an easy way to make the code available to others.
+This is the code and associated files for the TravelOAC project. The paper is currently in preparation and this code will be published alongside the paper.
 
 Any questions, please email me (n.bearman@liverpool.ac.uk).
 
@@ -9,7 +9,7 @@ The [keywords](clusters-keywords.md) used for each cluster are also avaliable; p
 There are a number of different files with R code. Here is a brief description, and the rough order they should be used in:
 
 **1-calc-nearest-stop.R**  
-- used to read in and preprocess OA centriod data and NAPTAN data  
+- used to read in and preprocess OA (Output Area) centriod data and NaPTAN data  
 - use Routino to calculate routes for each transport type / each OA  
 - work out nearest stop to each OA population weighted centriod  
 
@@ -30,6 +30,6 @@ These are some additional files:
 **B-compare-travel-to-OAC.r**  
 - Code to compare TravelOAC to OAC, splitting up travel variables by 2011 OAC  
 
-These files are setup for use my computer, so you will need to upadte the file paths to work. Also, Routino needs to be setup for the routing element - see [www.routino.org](www.routino.org) for details.
+These files are setup for use my computer, so you will need to update the file paths to work. Also, Routino needs to be setup for the routing element - see [www.routino.org](www.routino.org) for details.
 
 Please feel free to fork the repo, and make pull requests.
