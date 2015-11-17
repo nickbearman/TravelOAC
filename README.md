@@ -9,18 +9,18 @@ The [keywords](clusters-keywords.md) used for each cluster are also avaliable; p
 There are a number of different files with R code. Here is a brief description, and the rough order they should be used in:
 
 **1-calc-nearest-stop.R**  
-- used to read in and preprocess OA (Output Area) centriod data and NaPTAN data  
-- use Routino to calculate routes for each transport type / each OA  
-- work out nearest stop to each OA population weighted centriod  
+- Use to read in and preprocess OA (Output Area) centriod data and NaPTAN data  
+- Use Routino to calculate routes for each transport type / each OA  
+- Work out nearest stop to each OA population weighted centriod  
 
 **2-census-data.R**  
-- reads in census data  and aggregates it  
+- Reads in Census data and aggregates it  
 - looks at how the different variables are correlated with each other  
-- combines census data with distances  
+- combines Census data with distances  
 
 **3-calc-clusters.R**  
-- create elbow plot to establish number of clusters required  
-- calculate the K-means clustering for the classification  
+- Create elbow plot to establish number of clusters required  
+- Calculate the K-means clustering for the classification  
 
 These are some additional files:
 
@@ -30,6 +30,6 @@ These are some additional files:
 **B-compare-travel-to-OAC.r**  
 - Code to compare TravelOAC to OAC, splitting up travel variables by 2011 OAC  
 
-These files are setup for use my computer, so you will need to update the file paths to work. Also, Routino needs to be setup for the routing element - see [www.routino.org](www.routino.org) for details.
+These files are setup for use on my computer, so you will need to update the file paths for the code to work. Also, Routino needs to be setup for the routing element - see [www.routino.org](www.routino.org) for details.
 
 Please feel free to fork the repo, and make pull requests.
